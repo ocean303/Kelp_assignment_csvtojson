@@ -63,10 +63,21 @@ You can run this in psql, PgAdmin, or any SQL client.
 POST /upload
 
 Reads and converts CSV data to JSON, inserts all records into the database, and returns an age distribution summary.
-Send a POST request to the endpoint using curl or Postman
+Send a POST request to the endpoint using curl or Postman.
+
+
+1️⃣ Start your server:
+```bash
+npm start
+```
+
+
+2️⃣ Test with curl to create a new POST request to:
 ```bash
 curl -X POST http://localhost:3000/upload
 ```
+
+
 
 
 
