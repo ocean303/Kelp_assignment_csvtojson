@@ -24,7 +24,7 @@ After insertion, the application calculates the **age distribution** of all user
 
 ```bash
 git clone https://github.com/ocean303/Kelp_assignment_csvtojson.git
-cd csv-to-json-api
+cd Kelp_assignment_csvtojson
 ```
 
 2️⃣ Clone the repository
